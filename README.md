@@ -1,5 +1,9 @@
 # TradeLab｜电商交易与秒杀库存系统测试实战
 
+[![TradeLab Tests](https://github.com/LxcSyz/ecommerce-flashsale-testing/actions/workflows/test.yml/badge.svg)](https://github.com/LxcSyz/ecommerce-flashsale-testing/actions/workflows/test.yml)
+
+仓库：[LxcSyz/ecommerce-flashsale-testing](https://github.com/LxcSyz/ecommerce-flashsale-testing)
+
 一个可本地运行、可复现并发缺陷、可用于面试演示的软件测试作品集。包含被测系统、接口自动化、浏览器自动化、Locust 压测、数据库一致性检查和 GitHub Actions。
 
 本项目是个人测试实践，模拟支付不涉及真实资金。测试结果以实际运行报告为准，不虚构公司经历或线上性能指标。
@@ -101,14 +105,21 @@ SQLite 使用 `BEGIN IMMEDIATE` 在读取业务条件之前取得写锁；库存
 
 ## 发布到 GitHub
 
-本目录已按可提交源码组织，数据库、令牌、虚拟环境和运行报告均被忽略。新建你自己的空 GitHub 仓库，然后在本目录执行（替换 URL）：
+项目已发布至上方公开仓库。获取源码：
+
+```bash
+git clone https://github.com/LxcSyz/ecommerce-flashsale-testing.git
+cd ecommerce-flashsale-testing
+```
+
+如需发布到自己的账号，先新建空仓库，然后在尚未初始化 Git 的源码目录执行（替换 URL）；也可以直接 Fork 本仓库。数据库、令牌、虚拟环境和个人运行报告均被忽略：
 
 ```bash
 git init
 git add .
 git commit -m "Add TradeLab commerce and flash sale testing project"
 git branch -M main
-git remote add origin https://github.com/LxcSyz/ecommerce-flashsale-testing.git
+git remote add origin https://github.com/YOUR_USERNAME/ecommerce-flashsale-testing.git
 git push -u origin main
 ```
 

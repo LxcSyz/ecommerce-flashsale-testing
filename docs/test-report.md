@@ -66,4 +66,6 @@ Windows 10.0.22621，AMD64，16 个逻辑处理器；Python 3.9.12，SQLite；py
 
 实际查看了桌面 1440 px 和移动端 390 px 的截图；截图脚本检查无 JavaScript 未捕获异常、移动端无横向溢出。[桌面截图](assets/tradelab.png) 已放入 README。
 
-GitHub Actions 已配置，但当前目录未上传至远端，因此未执行远端 CI。Linux / Python 3.12、Firefox / WebKit、真实支付、自动关单、分布式库存和生产级容量未在本轮验证。准确活动时间边界目前只有未来/过去窗口用例，精确等于边界时刻的可控时钟测试仍可扩展。
+上述表格是本机执行记录。项目现已上传，远端 Linux / Python 3.9、3.12 与 Chromium 的验证结果见 [GitHub Actions](https://github.com/LxcSyz/ecommerce-flashsale-testing/actions/workflows/test.yml)，以对应提交的实际状态为准。
+
+Firefox / WebKit、真实支付、自动关单、分布式库存和生产级容量未在本轮验证。准确活动时间边界目前只有未来/过去窗口用例，精确等于边界时刻的可控时钟测试仍可扩展。
