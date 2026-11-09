@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+data/
+reports/*
+!reports/.gitkeep
+test-results/
+playwright-report/
+allure-report/
+.coverage
+htmlcov/
+.test-deps/
+dist/
+.tools/

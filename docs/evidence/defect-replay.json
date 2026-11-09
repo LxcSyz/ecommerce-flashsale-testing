@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-09T08:41:53.908870+00:00",
+  "python": "3.9.12",
+  "platform": "Windows-10-10.0.22621-SP0",
+  "note": "Controlled isolated specimen; not a production benchmark",
+  "defective": {
+    "buyers": 24,
+    "initial_stock": 10,
+    "successful_reservations": 24,
+    "remaining_stock": -14,
+    "reservation_rows": 24,
+    "oversold_units": 14,
+    "elapsed_seconds": 0.4494
+  },
+  "fixed": {
+    "buyers": 24,
+    "initial_stock": 10,
+    "successful_reservations": 10,
+    "remaining_stock": 0,
+    "reservation_rows": 10,
+    "oversold_units": 0,
+    "elapsed_seconds": 0.4062
+  }
+}

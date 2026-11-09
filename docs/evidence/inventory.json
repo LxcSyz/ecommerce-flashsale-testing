@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "机械键盘",
+    "initial_stock": 100,
+    "stock": 100,
+    "reserved": 0,
+    "consistent": true
+  },
+  {
+    "id": 2,
+    "name": "限量降噪耳机",
+    "initial_stock": 10,
+    "stock": 9,
+    "reserved": 1,
+    "consistent": true
+  },
+  {
+    "id": 3,
+    "name": "无线鼠标",
+    "initial_stock": 50,
+    "stock": 50,
+    "reserved": 0,
+    "consistent": true
+  }
+]
